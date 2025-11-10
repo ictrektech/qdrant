@@ -61,7 +61,7 @@ RUN case "$BUILDPLATFORM" in \
     cd /opt/mold; \
     \
     TARBALL="mold-$MOLD_VERSION-$PLATFORM-linux.tar.gz"; \
-    curl -sSLO "https://github.com/rui314/mold/releases/download/v$MOLD_VERSION/$TARBALL"; \
+    curl -sSLO "https://gh-proxy.com/https://github.com/rui314/mold/releases/download/v$MOLD_VERSION/$TARBALL"; \
     tar -xf "$TARBALL" --strip-components 1; \
     rm "$TARBALL"
 

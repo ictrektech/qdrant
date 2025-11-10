@@ -97,7 +97,7 @@ tap = { workspace = true }
 zerocopy = { workspace = true }
 lazy_static = "1.5.0"
 vaporetto = { version = "0.6.5" }
-rust-stemmers = { git = "https://github.com/qdrant/rust-stemmers.git", tag = "v1.2.1" }
+rust-stemmers = { git = "https://gh-proxy.com/https://github.com/qdrant/rust-stemmers.git", tag = "v1.2.1" }
 sysinfo = "0.37"
 charabia = { version = "0.9.7", default-features = false, features = [
     "greek",
